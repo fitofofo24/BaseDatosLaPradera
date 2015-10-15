@@ -1,6 +1,3 @@
-CREATE DATABASE LaPradera ;
-USE LaPradera;
-
 
 CREATE TABLE tmozo(
 	idmozo int PRIMARY KEY NOT NULL AUTO_INCREMENT,
@@ -107,5 +104,26 @@ INSERT INTO `tmozo`(`nom_mozo`, `ape_mozo`, `dni_mozo`, `tel_mozo`, `dir_mozo`) 
 INSERT INTO `tmozo`(`nom_mozo`, `ape_mozo`, `dni_mozo`, `tel_mozo`, `dir_mozo`) VALUES ("Kristiam","Jimenez",35869874,96325874,"Av. Juan Cabral 321 - Chilca");
 
 
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('UNO',1);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('DOS',1);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('TRES',1);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('CUATRO',1);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('CINCO',1);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('SEIS',1);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('SIETE',1);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('OCHO',2);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('NUEVE',2);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('DIEZ',2);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('ONCE',2);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('DOCE',2);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('TRECE',2);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('CATORCE',2);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('QUINCE',3);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('DIECISEIS',3);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('DIECISIETE',3);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('DIECIOCHO',3);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('DIECINUEVE',3);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('VEINTE',3);
+INSERT INTO tmesa(num_mesa, idmozo) VALUES('VEINTIUNO',3);
 
 

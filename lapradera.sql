@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 21-10-2015 a las 17:45:47
+-- Tiempo de generación: 21-10-2015 a las 17:58:03
 -- Versión del servidor: 5.6.26
 -- Versión de PHP: 5.6.12
 
@@ -256,7 +256,7 @@ CREATE TABLE IF NOT EXISTS `tusuario` (
   `email` varchar(50) NOT NULL,
   `pass_usu` varchar(50) NOT NULL,
   `perfil` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
 --
 -- Índices para tablas volcadas
@@ -333,6 +333,12 @@ ALTER TABLE `tplato_bebida`
   ADD KEY `idcate` (`idcate`);
 
 --
+-- Indices de la tabla `tusuario`
+--
+ALTER TABLE `tusuario`
+  ADD PRIMARY KEY (`idusuario`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -381,6 +387,11 @@ ALTER TABLE `tpedido`
 --
 ALTER TABLE `tplato_bebida`
   MODIFY `idplato_bebida` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=14;
+--
+-- AUTO_INCREMENT de la tabla `tusuario`
+--
+ALTER TABLE `tusuario`
+  MODIFY `idusuario` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- Restricciones para tablas volcadas
 --
